@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+:root{
+    --green: #7DF009;
+}
+
+
 body{
     @apply bg-black text-white;
 }
