@@ -10,7 +10,7 @@ const NavBar = () => {
     <motion.nav
       initial={{ opacity: 0, y: -100 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
+      transition={{type: "spring", duration: 0.4 }}
       className="bg-[#070707] absolute left-1/2 -translate-x-1/2 shadow-md rounded-full py-4 px-4 flex items-center justify-between w-[80vw] mx-auto mt-4"
     >
       {/* Brand */}
@@ -28,7 +28,7 @@ const NavBar = () => {
               <motion.div
                 layoutId="menu-bg"
                 className="absolute inset-0 border-b-2 border-[var(--green)]  z-0"
-                transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                transition={{ delay:-0.5, type: "spring", stiffness: 300, damping: 30 }}
               />
             )}
             <span
