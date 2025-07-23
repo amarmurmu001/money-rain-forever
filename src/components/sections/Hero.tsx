@@ -9,7 +9,7 @@ function Hero() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.5 }}
-        className="border-[#ffffff3b] px-4 py-1 border rounded-full text-[10px] whitespace-nowrap md:text-base lg:text-base"
+        className="border-[#ffffff3b] px-4 py-1 border rounded-full text-[7px] whitespace-nowrap md:text-base lg:text-base"
       >
         India's most trustable Community, our students make{" "}
         <span className="font-bold italic text-[var(--green)]">$567.5K+ </span>
