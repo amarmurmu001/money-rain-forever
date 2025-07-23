@@ -57,7 +57,7 @@ const NavBar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-[70px] right-4 bg-[#070707] text-white rounded-lg shadow-lg p-4 flex flex-col space-y-2 md:hidden w-[200px]"
+            className="absolute top-[70px] left-1/2 -translate-x-1/2  bg-[#070707] text-white rounded-lg shadow-lg p-4 flex flex-col space-y-2 md:hidden w-[80vw]"
           >
             {menuItems.map((item) => (
               <li
@@ -67,7 +67,7 @@ const NavBar = () => {
                   setIsOpen(false);
                 }}
                 className={`px-3 py-2 rounded cursor-pointer hover:bg-[#111] ${
-                  active === item ? "border-l-4 border-[#7DF009]" : ""
+                  active === item ? " border-[#7DF009]" : ""
                 }`}
               >
                 {item}
