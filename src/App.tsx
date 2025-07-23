@@ -7,7 +7,7 @@ function App() {
  
 
   return (
-    <main className="relative">
+    <main className="relative ">
     <NavBar/>
     <Hero/>
     </main>
