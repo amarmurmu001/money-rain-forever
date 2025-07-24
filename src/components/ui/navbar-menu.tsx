@@ -13,7 +13,7 @@ const NavBar = () => {
       initial={{ opacity: 0, y: -100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ type: "spring", duration: 0.4 }}
-      className="bg-[#070707] fixed z-50 left-1/2 -translate-x-1/2 shadow-md rounded-full py-4 px-4 flex items-center justify-between w-[90vw] md:w-[80vw] mx-auto mt-4"
+      className="bg-[#070707] backdrop-blur-lg fixed z-50 left-1/2 -translate-x-1/2 shadow-md rounded-full py-4 px-4 flex items-center justify-between w-[90vw] md:w-[80vw] mx-auto mt-4"
     >
       {/* Brand */}
       <div className="font-bold text-2xl px-2 text-[#7DF009]">MRF</div>

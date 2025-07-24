@@ -13,3 +13,7 @@
 body{
     @apply bg-black text-white;
 }
+
+.hide-scroll{
+  scrollbar-width: none;
+}
